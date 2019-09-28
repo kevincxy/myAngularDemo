@@ -1,0 +1,15 @@
+.header{
+    height: 44px;
+    line-height: 44px;
+    background-color: black;
+    
+}
+a{
+    color:#fff;
+    margin-left:30px;
+   
+}
+
+a.active{
+    color: pink;
+}
