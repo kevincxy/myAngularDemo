@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-
-  constructor() { }
+  list:any[]=[];
+  constructor() { 
+   
+  }
 
   ngOnInit() {
+    for(let i=0;i<10;i++){
+      this.list.push("这是第"+i+"个商品");
+      console.log("这是第"+i+"个商品");
+    }
   }
 
 }

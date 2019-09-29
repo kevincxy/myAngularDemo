@@ -10,6 +10,7 @@ import { NewsComponent } from './components/news/news.component';
     import { ListComponent } from './components/news/list/list.component';
     import { HotspotComponent } from './components/news/hotspot/hotspot.component';
 import { ProductComponent } from './components/product/product.component';
+import { ProductcontentComponent } from './components/productcontent/productcontent.component';
 
 
 
@@ -22,7 +23,8 @@ import { ProductComponent } from './components/product/product.component';
     WelcomeComponent,
     SettingsComponent,
     ListComponent,
-    HotspotComponent
+    HotspotComponent,
+    ProductcontentComponent
   ],
   imports: [
     BrowserModule,

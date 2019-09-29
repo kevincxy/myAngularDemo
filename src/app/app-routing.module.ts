@@ -8,6 +8,8 @@ import { WelcomeComponent } from './components/home/welcome/welcome.component';
 import { SettingsComponent } from './components/home/settings/settings.component';
 import { ListComponent } from './components/news/list/list.component';
 import { HotspotComponent } from './components/news/hotspot/hotspot.component';
+import { ProductcontentComponent } from './components/productcontent/productcontent.component';
+
 
 
 const routes: Routes = [
@@ -28,6 +30,7 @@ const routes: Routes = [
     ]
   },
   {path:"product",component:ProductComponent},
+  {path:"productcontent",component:ProductcontentComponent},
   //匹配不到的时候直接跳转到home
   {
     path:"**",/*任意路由*/
