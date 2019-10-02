@@ -11,6 +11,7 @@ import { NewsComponent } from './components/news/news.component';
     import { HotspotComponent } from './components/news/hotspot/hotspot.component';
 import { ProductComponent } from './components/product/product.component';
 import { ProductcontentComponent } from './components/productcontent/productcontent.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -24,7 +25,8 @@ import { ProductcontentComponent } from './components/productcontent/productcont
     SettingsComponent,
     ListComponent,
     HotspotComponent,
-    ProductcontentComponent
+    ProductcontentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

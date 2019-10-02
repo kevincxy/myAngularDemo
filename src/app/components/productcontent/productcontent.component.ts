@@ -12,9 +12,13 @@ export class ProductcontentComponent implements OnInit {
 
   ngOnInit() {
   //  console.log(this.router.queryParams);
-   this.router.queryParams.subscribe((data)=>{
-      console.log(data);
-   });
+  //get传值
+  //  this.router.queryParams.subscribe((data)=>{
+  //     console.log(data);
+  //  });
+  this.router.params.subscribe((data)=>{
+    console.log(data);
+  })
   }
 
 }
